@@ -26,7 +26,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 8665
+  controlID: 758
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 8666
+  controlID: 729
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -430,9 +430,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -2.7526636, y: 10.665207, z: -20.95131}
+    m_Target: {x: -16.621384, y: 14.253002, z: 18.141018}
     speed: 2
-    m_Value: {x: -2.7526636, y: 10.665207, z: -20.95131}
+    m_Value: {x: -16.621384, y: 14.253002, z: 18.141018}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -479,13 +479,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.29537678, y: -0.6185691, z: 0.27024725, w: 0.676089}
+    m_Target: {x: -0.00009456898, y: -0.98710585, z: -0.0005939424, w: 0.16010654}
     speed: 2
-    m_Value: {x: 0.29537603, y: -0.6185675, z: 0.27024657, w: 0.6760873}
+    m_Value: {x: -0.00009456839, y: -0.9870997, z: -0.00059393875, w: 0.16010554}
   m_Size:
-    m_Target: 24.316418
+    m_Target: 233.03543
     speed: 2
-    m_Value: 24.316418
+    m_Value: 233.03543
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -596,7 +596,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 26adf8ff9acef8ff983df9ff507ff9ff7cf7fbff822bfcff4a63fcffbe7cfcffaeddfcff88f9fcff4cb2fdff70c9fdffcad9fdff80e8fdff1403fefffe1afeff3258ffff187ffffff6a4ffff10fbfffff4ffffff729300000a3c01001a3c01004c3c01006c3c010020f00100080c0200
+      m_ExpandedIDs: 5615ffff7436ffff9669ffff1291ffff76acffff16f8ffff10fbffff0ecd000070cd0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -639,8 +639,8 @@ MonoBehaviour:
     y: 0
     width: 426
     height: 1252
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
+  m_MinSize: {x: 232, y: 271}
+  m_MaxSize: {x: 10002, y: 10021}
   m_ActualView: {fileID: 10}
   m_Panes:
   - {fileID: 10}
@@ -701,23 +701,23 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 286f0000
-    m_LastClickedID: 28456
-    m_ExpandedIDs: 00000000fc6e0000fe6e0000006f0000026f0000046f0000186f000000ca9a3b
+    m_SelectedIDs: 306f0000
+    m_LastClickedID: 28464
+    m_ExpandedIDs: 00000000086f00000a6f00000c6f00000e6f0000106f0000246f00002a6f0000ae83000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Prefab
+      m_OriginalName: Prefab
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 28466
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 9}
     m_SearchString: 
@@ -731,7 +731,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000fc6e0000fe6e0000006f0000026f0000046f000000ca9a3b
+    m_ExpandedIDs: 00000000086f00000a6f00000c6f00000e6f0000106f0000246f00002a6f0000ae83000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -756,8 +756,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 386d0000
-    m_LastClickedInstanceID: 27960
+    m_SelectedInstanceIDs: 50cd0000
+    m_LastClickedInstanceID: 52560
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 3e7b0000
     m_RenameOverlay:
@@ -848,7 +848,7 @@ MonoBehaviour:
     m_CachedPref: -693
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 27960
+  m_LastInspectedObjectInstanceID: 52560
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
