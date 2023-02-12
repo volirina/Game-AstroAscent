@@ -24,6 +24,7 @@ public class GameManager : MonoBehaviour
     public GameObject startUI;
 
     private float startTime;
+    public float playerSpeed;
     private int deaths;
     private int collectibles;
 
@@ -45,8 +46,9 @@ public class GameManager : MonoBehaviour
         retryButton.gameObject.SetActive(false);
         retryButton.onClick.AddListener(ReloadCurrentLevel);
         startUI.SetActive(true);
-        levelUI.SetActive(false);     
-    }
+        levelUI.SetActive(false);
+        playerSpeed = 2.0f;
+}
 
     private void Update()
     {
@@ -62,6 +64,7 @@ public class GameManager : MonoBehaviour
         startUI.SetActive(true);
         deaths++;
         retryButton.gameObject.SetActive(true);
+        playerSpeed = 2.0f;
     }
 
     public void IncrementCollectibles()
@@ -82,6 +85,7 @@ public class GameManager : MonoBehaviour
     private void LoadLevelOne()
     {
         startTime = Time.time;
+        playerSpeed = 2.0f;
         deaths = 0;
         collectibles = 0;
         SceneManager.LoadScene("LevelOne");

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using StarterAssets;
 using UnityEngine;
 
 public class Collectable : MonoBehaviour
@@ -8,11 +9,10 @@ public class Collectable : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            if (GameManager.Instance != null)
-            {
-                GameManager.Instance.IncrementCollectibles();
-                Destroy(gameObject);
-            }
+            GameManager.Instance.IncrementCollectibles();
+            GameManager.Instance.playerSpeed += 0.2f;
+            Destroy(gameObject);
         }
     }
+
 }

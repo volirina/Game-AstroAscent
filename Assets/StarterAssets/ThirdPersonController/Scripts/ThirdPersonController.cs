@@ -134,6 +134,8 @@ namespace StarterAssets
 
         private void Start()
         {
+            MoveSpeed = 2.0f;
+            MoveSpeed = GameManager.Instance.playerSpeed;
             _cinemachineTargetYaw = CinemachineCameraTarget.transform.rotation.eulerAngles.y;
             
             _hasAnimator = TryGetComponent(out _animator);
@@ -149,16 +151,25 @@ namespace StarterAssets
 
             // reset our timeouts on start
             _jumpTimeoutDelta = JumpTimeout;
-            _fallTimeoutDelta = FallTimeout;
+            _fallTimeoutDelta = FallTimeout;            
         }
 
         private void Update()
         {
             _hasAnimator = TryGetComponent(out _animator);
-
+            MoveSpeed = GameManager.Instance.playerSpeed;
             JumpAndGravity();
             GroundedCheck();
             Move();
+        }
+
+        private void OnTriggerEnter(Collider other)
+        {
+            if (other.CompareTag("Collectible"))
+            {
+                GameManager.Instance.playerSpeed += 0.2f;
+                Destroy(other.gameObject);
+            }
         }
 
         private void LateUpdate()
