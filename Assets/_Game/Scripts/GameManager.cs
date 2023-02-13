@@ -124,6 +124,7 @@ public class GameManager : MonoBehaviour
 
     public void WinLevel()
     {
+        retryButton.gameObject.SetActive(false);
         startUI.SetActive(true);
         winText.text = "YOU WON!\n" +
                        "Time: " + timeCounterText.text + "\n" +
@@ -131,7 +132,6 @@ public class GameManager : MonoBehaviour
                        "Collectibles: " + collectibles;
         startButton.gameObject.SetActive(true);
         retryButton.gameObject.SetActive(false);
-        levelUI.SetActive(false);
-        retryButton.gameObject.SetActive(false);
+        levelUI.SetActive(false);        
     }
 }
