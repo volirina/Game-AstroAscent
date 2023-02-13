@@ -4,17 +4,19 @@ using UnityEngine;
 
 public class Death : MonoBehaviour
 {
+    // INHERITANCE: This is the parent class for all enemy types in the game.
     public float speed = 5.0f;
     public float rotationSpeed = 10.0f;
 
-    private Transform target;
+    // INHERITANCE
+    protected Transform target;
 
-    private void Start()
+    protected virtual void Start()
     {
         target = GameObject.FindWithTag("Player").transform;
     }
 
-    private void LateUpdate()
+    protected virtual void LateUpdate()
     {
         transform.position = Vector3.Lerp(transform.position, target.position, speed * Time.deltaTime);
 
